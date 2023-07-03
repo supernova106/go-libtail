@@ -20,9 +20,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/rcowham/go-libtail/tailer"
-	"github.com/rcowham/go-libtail/tailer/fswatcher"
-	"github.com/rcowham/go-libtail/tailer/glob"
+	"github.com/supernova106/go-libtail/tailer"
+	"github.com/supernova106/go-libtail/tailer/fswatcher"
+	"github.com/supernova106/go-libtail/tailer/glob"
 
 	"github.com/sirupsen/logrus"
 )

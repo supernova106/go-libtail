@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcowham/go-libtail/tailer/fswatcher"
+	"github.com/supernova106/go-libtail/tailer/fswatcher"
 )
 
 // First produce 10,000 lines, then consume 10,000 lines.

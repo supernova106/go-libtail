@@ -1,4 +1,4 @@
-module github.com/rcowham/go-libtail
+module github.com/supernova106/go-libtail
 
 go 1.18
 

@@ -6,7 +6,7 @@ import (
 	logFatal "log"
 	"sync"
 
-	"github.com/rcowham/go-libtail/tailer/fswatcher"
+	"github.com/supernova106/go-libtail/tailer/fswatcher"
 )
 
 // lineBuffer is a thread safe queue for *fswatcher.Line.

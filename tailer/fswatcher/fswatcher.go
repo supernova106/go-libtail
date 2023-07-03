@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"github.com/prometheus/common/log"
-	"github.com/rcowham/go-libtail/tailer/glob"
 	"github.com/sirupsen/logrus"
+	"github.com/supernova106/go-libtail/tailer/glob"
 )
 
 type FileTailer interface {

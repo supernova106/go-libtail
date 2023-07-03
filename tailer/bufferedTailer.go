@@ -15,8 +15,8 @@
 package tailer
 
 import (
-	"github.com/rcowham/go-libtail/tailer/fswatcher"
 	"github.com/sirupsen/logrus"
+	"github.com/supernova106/go-libtail/tailer/fswatcher"
 )
 
 // implements fswatcher.FileTailer

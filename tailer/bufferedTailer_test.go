@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rcowham/go-libtail/tailer/fswatcher"
 	"github.com/sirupsen/logrus"
+	"github.com/supernova106/go-libtail/tailer/fswatcher"
 )
 
 const nTestLines = 10000

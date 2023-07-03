@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/rcowham/go-libtail/tailer/fswatcher"
+	"github.com/supernova106/go-libtail/tailer/fswatcher"
 )
 
 type stdinTailer struct {
