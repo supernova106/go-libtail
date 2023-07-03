@@ -13,7 +13,3 @@
 // limitations under the License.
 
 package fswatcher
-
-func fdToInt(fd uintptr) uint64 {
-	return uint64(fd)
-}

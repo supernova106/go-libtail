@@ -16,10 +16,11 @@ package fswatcher
 
 import (
 	"fmt"
-	"github.com/sirupsen/logrus"
 	"io"
 	"os"
 	"syscall"
+
+	"github.com/sirupsen/logrus"
 )
 
 type watcher struct {
