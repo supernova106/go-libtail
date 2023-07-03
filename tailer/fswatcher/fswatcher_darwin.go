@@ -31,6 +31,10 @@ type fileWithReader struct {
 	reader *lineReader
 }
 
+func fdToInt(fd uintptr) uint64 {
+	return uint64(fd)
+}
+
 func (w *watcher) unwatchDir(dir *Dir) error {
 	err := dir.file.Close()
 	if err != nil {
